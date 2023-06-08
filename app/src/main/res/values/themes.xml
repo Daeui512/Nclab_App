@@ -24,4 +24,12 @@
         <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
         <item name="fullscreenTextColor">@color/light_blue_A200</item>
     </style>
+
+    <!-- kyc 추가_202306 -->
+    <style name="Theme.N_clab.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.N_clab.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.N_clab.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>
